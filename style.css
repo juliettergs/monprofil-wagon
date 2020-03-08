@@ -1,0 +1,99 @@
+body {
+  background-color: #EF4886;
+  color: #2C2C2C;
+  font-family: 'Dosis', sans-serif;
+  font-size: 22px
+}
+
+p {
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+  color:#2C2C2C;
+  font-size: 53px;
+}
+
+h1, h2, h3, h4{
+  font-weight: bold;
+}
+
+#img-css {
+  border-radius: 50%;
+  padding: 36px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold
+}
+
+a:hover {
+  color: grey;
+}
+
+
+.container {
+  width: 700px;
+  margin: 10px auto;
+  padding: 30px 35px;
+  border-radius: 6px;
+}
+
+
+.link-btn {
+  background-color: #F646A5;
+  color: black;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.link-btn:hover{
+  background-color:grey;
+  color: white;
+}
+
+.card-white{
+  background-color: white;
+  padding: 50px;
+  box-shadow: 15px 18px 120px rgba(0,0.2,0,0.1);
+  border-radius: 13px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+.card-white:hover{
+  background-color:#E7F6C1;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 8px;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.list-inline{
+  font-size: 68px;
+}
+
+#introduction p{
+  margin-bottom: 35px;
+}
